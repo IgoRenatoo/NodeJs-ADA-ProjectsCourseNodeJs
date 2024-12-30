@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-ada-projectscoursenodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "lint-staged": { "*.{js,ts}": ["eslint '**/*' --fix"] },
+  "scripts": {
+    "prepare": "husky && husky install"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.3.0",
+    "typescript-eslint": "^8.18.2"
+  }
+}
